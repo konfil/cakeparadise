@@ -1,0 +1,190 @@
+:root{
+    --primary-color:#F1A4BD;
+    --secondary-color:#97346A;
+    --sec-button:#F8E6CA;
+    --bakground1:#FFFFFF;
+    --bakground2:#F9F9F9;
+    --bakground3:#F3F3F3;
+    --text-header: #000000;
+    --body-text: #707070;
+    --body-text2: #ABABAB;
+    --body-text3: #E1E1E1;
+}
+
+
+
+/*** CART ****/
+.c-h1{
+    font-size: 30px;
+}
+p{
+    margin: auto !important;
+}
+.cont{
+    margin: 1rem 0px;
+}
+.pos-rela{
+    position: relative;
+}
+.label{
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: var(--bakground3);
+}
+.c-box{
+    border: 1px solid var(--body-text);
+    border-radius: 10px;
+}
+.row.box-row{
+    margin-top: 30px !important;
+}
+.shipping-box{
+    margin-top: 20px;
+}
+.change-but{
+    background-color: var(--bakground3);
+    border-radius: 8px;
+}
+.grey{
+    color: var(--body-text);
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+.black{
+    font-weight: 600;
+    color: var(--text-header);
+}
+
+
+/*** PAYMENT SECTION ***/
+.p-m{
+    font-size: 18px;
+    margin-top: 40px;
+    background-color: var(--bakground3);
+    padding: 9px 30px;
+}
+.cart-c-h{
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 9px 0px;
+}
+.card-credit{
+    padding: 10px;
+    font-size: 20px;
+    background-color: var(--bakground3);
+    border-radius: 10px;
+}
+.pad{
+    padding:20px;
+    border: 1px solid var(--body-text);
+    border-radius: 10px;
+}
+.pad:focus{
+    border:1px solid #97346A ;
+}
+.label-txt{
+    font-size: 13px;
+    margin: 15px 0px;
+    font-weight: 600;
+}
+.payment-button{
+    width: 100%;
+    background-color: var(--sec-button);
+    border-radius: 10px;
+    font-weight: 500;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.order-img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.cake-name-full{
+    font-size: 18px;
+}
+.cart-c-p{
+    font-size: 18px;
+}
+.cart-h2{
+    font-size: 22px;
+}
+.cart-content{
+    border: 1px solid var(--body-text);
+    border-radius: 10px;
+    padding: 30px;
+}
+.descriptions{
+    font-size: 12px !important;
+    color: var(--body-text);
+}
+.order-row{
+    margin-top: 20px;
+}
+.calculation-row{
+    margin-top: 3rem;
+}
+.tot{
+    vertical-align: middle;
+}
+.tot-col{
+    margin-top: 4rem;
+}
+.tot-price{
+    font-size: 24px;
+}
+
+@media (max-width:992px) {
+    .cart-content{
+        border: 0px;
+        border-radius: 0;
+        padding: 0px;
+        padding-bottom: 50px;
+        border-bottom: 1px solid var(--secondary-color);
+    }
+    .tot-col{
+        margin-top: 19px;
+    }
+    .calculation-row{
+        margin-top: 10px;
+    }
+ 
+    .mob-box{
+        margin-top: 40px;
+    }
+}
+@media (max-width:560px) {
+    
+    #cart{
+        padding: 0px 5%;
+    }
+    .c-h1{
+        font-size: 20px;
+    }
+    .cake-name-full{
+        font-size: 14px;
+    }
+    .descriptions{
+        font-size: 10px !important;
+    }
+    .cart-c-p{
+        font-size: 13px;
+    }
+    .change-mob{
+        text-align: left !important;
+       padding: 10px 0px 10px;
+    }
+    .mob-f{
+        font-size: 12px;
+    }
+    .change-but,.label{
+        font-size: 12px;
+        margin-left: 13px !important;
+    }
+    .pad{
+        padding: 8px;
+        border-radius: 4px;
+    }
+}
